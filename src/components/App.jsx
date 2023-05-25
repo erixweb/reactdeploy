@@ -1,12 +1,12 @@
 import Header from "./Header";
 import "../styles/index.css"
-import FeaturesCard from "./FeaturesCard";
+import FeaturesCards from "./FeatureCards";
 export default function App() {
     return (
         <>
             <Header />
             <main>
-                <FeaturesCard />
+                <FeaturesCards />
             </main>
         </>
     )
