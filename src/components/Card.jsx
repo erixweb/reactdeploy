@@ -6,7 +6,7 @@ export default function Card (props) {
     const { img } = props
 
     return (
-        <div>
+        <div className="card">
             <div>
                 <img src={img} alt="" />
             </div>

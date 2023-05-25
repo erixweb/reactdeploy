@@ -50,3 +50,23 @@ header img {
 main {
     max-width: 75rem;
 }
+/*
+    Cards
+*/
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5em;
+}
+.card {
+    padding: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 0px;
+}
+.card p {
+    margin-top: 10px;
+    margin-left: 0px;
+    max-width: 320px;
+    color: rgb(87, 87, 87);
+}
