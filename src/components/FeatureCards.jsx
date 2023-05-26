@@ -12,8 +12,8 @@ export default function FeaturesCards () {
                     content="Renderiza tus componentes en el servidor para obtener el mejor performance posible."
                 />
                 <Card 
-                    title="Buen SEO"
-                    content="Hola"
+                    title="Soporte 24/7"
+                    content="Con ReactDeploy obtendrás un soporte 24h durante toda la semana."
                 />
                 <Card 
                     title="Buen SEO"
