@@ -16,20 +16,20 @@ export default function FeaturesCards () {
                     content="Con ReactDeploy obtendrás un soporte 24h durante toda la semana."
                 />
                 <Card 
-                    title="Buen SEO"
-                    content="Hola"
+                    title="Despliegue rápido"
+                    content="Despliega tu aplicación lo más rápido posible usando GitHub."
                 />
                 <Card 
-                    title="Buen SEO"
-                    content="Hola"
+                    title="Comunidad"
+                    content="Una comunidad formada por más de 20.000 desarolladores te ayudará con tus dudas."
                 />
                 <Card 
-                    title="Buen SEO"
-                    content="Hola"
+                    title="Estabilidad"
+                    content="Por defecto las opciones estables para que no tengas problemas, será tu decisión activar las más nuevas."
                 />
                 <Card 
-                    title="Buen SEO"
-                    content="Hola"
+                    title="Compatibilidad"
+                    content="Compatible con tecnologías como Vite, Next..."
                 />
             </div>
         </section>
