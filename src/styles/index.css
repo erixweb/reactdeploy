@@ -13,6 +13,53 @@ body {
     min-height: 100vh;
 }
 /*
+    Navigation
+*/
+nav {
+    width: 100%;
+    max-width: 75rem;
+    height: 60px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+}
+nav .logo {
+    float: left;
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: 800;
+}
+nav .gray {
+    color: gray;
+}
+nav .urls {
+    width: 100%;
+    text-align: center;
+}
+nav a {
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+nav .account {
+    display: flex;
+}
+nav .account button {
+    cursor: pointer;
+    margin-left: 2vmin;
+    padding: 16px;
+    border-radius: 10px;
+}
+nav .account button#signin {
+    color: #fff;
+    background-color: #313131;
+}
+nav .account button#login {
+    background-color: #f3f3f3;
+    border: 1px solid black;
+}
+/*
     Header
 */
 header {
@@ -47,6 +94,8 @@ header img {
     vertical-align: middle;
     width: 100%;
     height: 100%;
+    transform: rotate(0deg) scale(1);
+    transition: 500ms;
 }
 header img:hover {
     transform: rotate(0deg) scale(1.1);
